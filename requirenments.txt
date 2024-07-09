@@ -1,1 +1,3 @@
-hi
+os
+google.generativeai
+streamlit
