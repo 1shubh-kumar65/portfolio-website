@@ -4,8 +4,7 @@ import google.generativeai as genai
 
 # Initialize and configure the generative AI model
 try:
-    api_key = st.secrets['GOGLE_API_KEY']
-    genai.configure(api_key)
+    genai.configure(st.secrets['GOGLE_API_KEY'])
 except KeyError:
     st.error("Google API key not found. Please configure the API key in Streamlit secrets.")
     st.stop()
