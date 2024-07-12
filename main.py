@@ -68,4 +68,4 @@ try:
         else:
             print(f"Error: The file '{script_path}' does not exist.")
 except Exception as e:
-    print(e)
+    st.write(e)
