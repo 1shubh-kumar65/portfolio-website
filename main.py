@@ -47,16 +47,21 @@ try:
 
     user_input = st.text_input('enter a prompt')
 
+    st.write(user_input)
+
 
     response = model.generate_content(persauna + 'user input is:' + user_input)
 
     code = response.text.replace("```python", '')
     code = code.replace("```", '')
 
+    
+    st.write(code)
+
 
     if st.button('generate'):  
-        with open('test.py', 'w') as a:
-            a.write(code)
+        with open('test.py', 'r') as a:
+            st.writ(a.readlines(code))
 
         # Specify the path to your Python file (replace 'path/to/your/script.py' with the actual path)
         script_path = 'test.py'
