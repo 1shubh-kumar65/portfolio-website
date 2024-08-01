@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import ai.ai as ai
+import ai
 
 def camera_input():
     st.title("enter your image either by camera or upload a file")
