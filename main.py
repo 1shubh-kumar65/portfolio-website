@@ -1,9 +1,9 @@
 import streamlit as st
 import webbrowser
 
-import inputs.voice_input as voice_input
-import inputs.camera_input as camera_input
-import inputs.text_input as text_input 
+import voice_input
+import camera_input
+import text_input 
 from main_data import popular_websites
 
 # Create a simple navigation bar
