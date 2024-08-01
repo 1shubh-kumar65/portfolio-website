@@ -4,7 +4,7 @@ from googletrans import Translator
 from pydub import AudioSegment
 import tempfile
 import os
-import ai.ai as ai  # Assuming ai is a custom module with a generative_ai function
+import ai  # Assuming ai is a custom module with a generative_ai function
 
 # Function to handle voice input and translation
 def start():
