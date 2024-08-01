@@ -6,3 +6,4 @@ pydub
 googletrans
 tkinter
 random
+webbrowser
