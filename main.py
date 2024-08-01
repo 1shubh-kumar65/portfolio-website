@@ -22,5 +22,5 @@ elif option == "camera input":
 elif option == "text input":
     command = text_input.text_input()
     if st.button('generate'):
-        
+        pass
         
