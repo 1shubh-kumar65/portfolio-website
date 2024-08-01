@@ -4,3 +4,4 @@ google-generativeai
 pydub
 googletrans==4.0.0-rc1
 Pillow
+SpeechRecognition
