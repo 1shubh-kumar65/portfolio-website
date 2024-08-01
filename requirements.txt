@@ -1,7 +1,6 @@
 streamlit
 pyttsx3
 google-generativeai
-tempfile
 pydub
 googletrans
 tkinter
