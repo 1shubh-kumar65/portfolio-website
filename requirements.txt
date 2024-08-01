@@ -2,8 +2,5 @@ streamlit
 pyttsx3
 google-generativeai
 pydub
-googletrans
-tkinter
-random
-webbrowser
+googletrans==4.0.0-rc1
 Pillow
